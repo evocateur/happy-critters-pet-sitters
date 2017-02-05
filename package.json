@@ -15,10 +15,12 @@
     "typography": "^0.15.0"
   },
   "devDependencies": {
+    "rimraf": "^2.5.4",
     "surge": "^0.18.0"
   },
   "license": "MIT",
   "scripts": {
+    "prebuild": "rimraf public",
     "build": "gatsby build",
     "deploy": "surge ./public",
     "start": "gatsby develop",
