@@ -22,7 +22,7 @@
   "scripts": {
     "prebuild": "rimraf public",
     "build": "gatsby build",
-    "deploy": "surge ./public",
+    "deploy": "yarn run build && surge public",
     "start": "gatsby develop",
     "test": "echo \"Error: no test specified\""
   }
