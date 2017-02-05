@@ -1,5 +1,7 @@
 # Happy Critters Pet Sitters
 
+[![Build Status](https://travis-ci.org/evocateur/happy-critters-pet-sitters.svg?branch=master)](https://travis-ci.org/evocateur/happy-critters-pet-sitters)
+
 This is the source code. View the website [here][hcps].
 
 ## Development
