@@ -1,0 +1,27 @@
+{
+  "name": "happy-critters-pet-sitters",
+  "description": "Website of Happy Critters Pet Sitters",
+  "version": "1.0.0",
+  "author": "Daniel Stockman <daniel.stockman@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "gatsby": "^0.12.20",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-headroom": "^2.1.2",
+    "react-helmet": "^3.2.2",
+    "react-responsive-grid": "^0.3.3",
+    "react-typography": "^0.15.0",
+    "typography": "^0.15.0"
+  },
+  "devDependencies": {
+    "surge": "^0.18.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "deploy": "surge ./public",
+    "start": "gatsby develop",
+    "test": "echo \"Error: no test specified\""
+  }
+}
